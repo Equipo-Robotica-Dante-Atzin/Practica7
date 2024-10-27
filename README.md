@@ -92,6 +92,27 @@ La siguiente imagen muestra el resultado del trazo obtenido después de ejecutar
 
 ![Imagen de WhatsApp 2024-10-25 a las 17 51 03_45ce59c7](https://github.com/user-attachments/assets/ff2c97cd-a523-4638-9961-4d952d25defc)
 
+## Conclusiones
+
+***Atzin Morales Alejandre:*** 
+
+
+***Dante Mejía Silva:*** 
+
+La práctica realizada en el laboratorio de robótica permitió aplicar de forma integral los conceptos teóricos estudiados sobre el control y programación de robots industriales. Durante la actividad, se implementaron funciones clave como "Here", "Pallet", "Jump3", etc, que resultaron fundamentales para el trazado preciso de una figura en una cuadrícula predefinida.
+
+En primer lugar, la función Here fue indispensable para establecer puntos de referencia en la programación de movimientos, permitiendo que el robot registrara posiciones clave y ajustara su posición actual en el espacio de trabajo. Esto facilitó la programación de la secuencia sin necesidad de reubicar físicamente el robot, optimizando el proceso de codificación y la precisión de los movimientos.
+
+La función Pallet jugó un papel crucial al permitir la creación de una cuadrícula de puntos distribuidos de manera uniforme en un área determinada, en este caso, una matriz de 10x10. Al definir las esquinas de la cuadrícula mediante puntos de referencia, se logró una disposición controlada y eficiente de los puntos en el espacio, lo cual es esencial para aplicaciones industriales que requieren patrones repetitivos o distribuciones sistemáticas, como en tareas de ensamblaje o empaque.
+
+El comando Jump3 fue fundamental para coordinar movimientos en tres fases, ajustando la posición en el eje Z de manera que el robot pudiera levantar y bajar su herramienta en puntos específicos de la cuadrícula. Este comando permitió al robot "sobrevolar" áreas y luego descender suavemente para trazar en los puntos deseados, garantizando precisión y control en el proceso de dibujo. La incorporación de desplazamientos en el eje Z también contribuyó a evitar colisiones y a asegurar que el robot se moviera con la precisión necesaria al pasar entre puntos de la figura.
+
+En conjunto, esta práctica no solo reforzó la comprensión de las funciones y comandos nuevos del software de Epson RC+, sino que también brindó experiencia en el diseño y ejecución de movimientos complejos en un robot industrial. 
+
+## Referencias Bibliográficas 
+
+[1] 	EpsonCompany, «Especialistas en automatización industrial». 2024, https://www.epson.es/es_ES/robots
+
 
 
 
