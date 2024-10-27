@@ -66,8 +66,31 @@ Fend
 **Home:** El robot se posiciona en su ubicación de referencia o punto de inicio, asegurando que todos los movimientos siguientes partan de una posición conocida.
 
 **Pallet:** La cuadrícula o pallet está definida como una matriz de 10x10 puntos, identificada por el número 0. Sus parámetros se detallan a continuación:
-- Esquinas:* La cuadrícula se ubica entre tres puntos de referencia: la esquina inferior izquierda (esq_inf_izq), la esquina inferior derecha (esq_inf_der), y la esquina superior izquierda (esq_sup_izq).
+
+- Esquinas: La cuadrícula se ubica entre tres puntos de referencia: la esquina inferior izquierda (esq_inf_izq), la esquina inferior derecha (esq_inf_der), y la esquina superior izquierda (esq_sup_izq).
 - Dimensiones: La matriz tiene una disposición de 10 filas por 10 columnas.
+
+**Go Pallet(0, 52):** El robot se dirige al punto número 52 dentro de la cuadrícula (pallet 0), representando el inicio de la figura.
+
+**Jump3:** Cada paso de la secuencia Jump3 se compone de tres movimientos, y está diseñado para permitir que el robot baje y suba en el eje Z en cada posición de la cuadrícula, asegurando un trazo preciso en cada punto.
+
+**Formato del Movimiento:** Cada línea de movimiento sigue la estructura Jump3 Here +Z(20), Pallet(0, XX) +Z(20), Pallet(0, XX).
+
+**Here +Z(20):** Mueve al robot a una posición 20 unidades sobre su ubicación actual, permitiéndole "sobrevolar" el área de trabajo.
+
+**Pallet(0, XX) +Z(20):** Lleva al robot a 20 unidades sobre el punto XX en la cuadrícula sin tocar la superficie.
+
+**Pallet(0, XX):** Finaliza el movimiento en el punto XX, tocando la superficie del papel para simular el trazo.
+
+**Puntos Visitados:** El robot se desplaza a varios puntos en la cuadrícula (por ejemplo, Pallet(0, 42), Pallet(0, 32), etc.), permitiendo la creación de la figura a través de trazos precisos.
+
+**Motor Off:** Para completar la tarea, el motor del robot se apaga, finalizando todas las operaciones de movimiento.
+
+**Fend:** Este comando marca el fin de la función principal main, concluyendo la ejecución del código.
+
+La siguiente imagen muestra el resultado del trazo obtenido después de ejecutar el código en el brazo robótico:
+
+![Imagen de WhatsApp 2024-10-25 a las 17 51 03_45ce59c7](https://github.com/user-attachments/assets/ff2c97cd-a523-4638-9961-4d952d25defc)
 
 
 
