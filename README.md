@@ -23,3 +23,58 @@ En primer lugar, se seleccionó la figura que se deseaba trazar y se representó
 
 ![image](https://github.com/user-attachments/assets/098a3833-ddd4-4d45-be64-186617e104f3)
 
+Con base en los conocimientos adquiridos durante la clase de laboratorio, se desarrolló el siguiente código para que el brazo robótico Epson pudiera trazar la figura seleccionada. Este código permite que el robot ejecute con precisión la secuencia de movimientos necesarios para recrear el diseño elegido.
+```
+Function main
+	
+	Motor On
+	Power Low
+		
+	Home
+	Pallet 0, esq_inf_izq, esq_inf_der, esq_sup_izq, 10, 10
+	Go Pallet(0, 52)
+	Jump3 Here +Z(20), Pallet(0, 42) +Z(20), Pallet(0, 42)
+	Jump3 Here +Z(20), Pallet(0, 32) +Z(20), Pallet(0, 32)
+	Jump3 Here +Z(20), Pallet(0, 43) +Z(20), Pallet(0, 43)
+	Jump3 Here +Z(20), Pallet(0, 44) +Z(20), Pallet(0, 44)
+	Jump3 Here +Z(20), Pallet(0, 45) +Z(20), Pallet(0, 45)
+	Jump3 Here +Z(20), Pallet(0, 76) +Z(20), Pallet(0, 76)
+	Jump3 Here +Z(20), Pallet(0, 66) +Z(20), Pallet(0, 66)
+	Jump3 Here +Z(20), Pallet(0, 56) +Z(20), Pallet(0, 56)
+	Jump3 Here +Z(20), Pallet(0, 46) +Z(20), Pallet(0, 46)
+	Jump3 Here +Z(20), Pallet(0, 36) +Z(20), Pallet(0, 36)
+	Jump3 Here +Z(20), Pallet(0, 26) +Z(20), Pallet(0, 26)
+	Jump3 Here +Z(20), Pallet(0, 16) +Z(20), Pallet(0, 16)
+	Jump3 Here +Z(20), Pallet(0, 67) +Z(20), Pallet(0, 67)
+	Jump3 Here +Z(20), Pallet(0, 27) +Z(20), Pallet(0, 27)
+	Jump3 Here +Z(20), Pallet(0, 58) +Z(20), Pallet(0, 58)
+	Jump3 Here +Z(20), Pallet(0, 38) +Z(20), Pallet(0, 38)
+	Jump3 Here +Z(20), Pallet(0, 49) +Z(20), Pallet(0, 49)
+	
+	Home
+	Motor Off
+	
+Fend
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
