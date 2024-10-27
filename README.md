@@ -57,6 +57,17 @@ Function main
 Fend
 ```
 
+**Function main:** La función principal, denominada main, contiene la secuencia de comandos para que el robot ejecute el proceso de trazar la figura sobre el papel.
+
+**Motor On:** Activa el motor del robot.
+
+**Power Low:** Establece una potencia baja, adecuada para tareas de precisión.
+
+**Home:** El robot se posiciona en su ubicación de referencia o punto de inicio, asegurando que todos los movimientos siguientes partan de una posición conocida.
+
+**Pallet:** La cuadrícula o pallet está definida como una matriz de 10x10 puntos, identificada por el número 0. Sus parámetros se detallan a continuación:
+- Esquinas:* La cuadrícula se ubica entre tres puntos de referencia: la esquina inferior izquierda (esq_inf_izq), la esquina inferior derecha (esq_inf_der), y la esquina superior izquierda (esq_sup_izq).
+- Dimensiones: La matriz tiene una disposición de 10 filas por 10 columnas.
 
 
 
