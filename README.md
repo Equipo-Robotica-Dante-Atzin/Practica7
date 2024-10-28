@@ -94,7 +94,12 @@ La siguiente imagen muestra el resultado del trazo obtenido después de ejecutar
 
 ## Conclusiones
 
-***Atzin Morales Alejandre:*** 
+***Atzin Morales Alejandre:*** En esta práctica de laboratorio, se pudo aplicar los conceptos de programación y control del brazo robótico del laboratório. A través de funciones como "Here", "Pallet" y "Jump3", se logró que el robot trazara una figura en una cuadrícula de 10x10, siguiendo puntos específicos con precisión. La función "Here" fue clave para marcar posiciones de referencia sin necesidad de enseñarselas de manera manual al robot, haciendo la programación más eficiente.
+
+La función "Pallet" permitió organizar una cuadrícula de puntos para que el robot siguiera un patrón uniforme, ideal para tareas repetitivas. El comando "Jump3" fue importante para mover la herramienta en el eje Z, logrando que el robot bajara y subiera con precisión en cada punto de la figura, simulando un trazo controlado en el papel.
+
+Esta práctica facilitó una comprensión más profunda del funcionamiento de las funciones como “Pallet”, “Jump3” y “Here” y cómo estas permiten programar trayectorias complejas. Gracias a este ejercicio, se desarrollaron habilidades prácticas en el control de movimientos específicos, útiles para futuras aplicaciones en tareas de precisión en el ámbito industrial.
+
 
 
 ***Dante Mejía Silva:*** 
